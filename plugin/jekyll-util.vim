@@ -153,7 +153,7 @@ endfunction
 
 function! s:make_jekyll_path(config, title, offset)
    let today = s:today_unix() + a:offset * 24 * 60 * 60
-   return s:join_path(expand(a:config['posts']), strftime("%Y-%m-%d-", today).a:title.g:editJekyllPost#defaultExtension)
+   return s:join_path(expand(a:config['posts']), strftime("%Y-%m-%d-", today).a:title.g:jekyllUtil#defaultExtension)
 endfunction
 
 function! s:write_error(err)
@@ -451,7 +451,7 @@ try
    if s:is_current_buffer_empty()
       call s:insert_to_current_buffer([
          \ "---",
-         \ "layout: ". g:editJekyllPost#defaultLayout,
+         \ "layout: ". g:jekyllUtil#defaultLayout,
          \ "title: ",
          \ "---",
          \ "",
