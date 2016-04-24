@@ -441,7 +441,6 @@ function! JekyllEdit(...)
       let repo = a:1
       let config = s:get_repo_config(repo)
       exec "e ". config['posts']
-      sort
       return
    else
       throw s:jekylledit_usage

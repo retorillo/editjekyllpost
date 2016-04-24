@@ -4,7 +4,7 @@
 
 Jekyll utilities for vimmer. Works on Windows, MSYS2, Linux, and Mac!
 
-I'm happy if it can helps you from boring works. (enter to `_posts` directory,
+I'm happy if it can helps yo from boring works. (enter to `_posts` directory,
 type ISO date-formatted file name, and so on)
 
 **I renamed this plugin name from `editjekyllpost.vim` to `jekyll-util.vim`.**i
@@ -41,8 +41,8 @@ First, set your blog name and local path as follow and save this.
 root=~/your/blog1/
 ```
 
-In this case, blog name is `blog1` path is `~/your/blog1`.
-Now you can now use [JekyllEdit](#jekylledit) command!
+In this case, blog name is `blog1` and path is `~/your/blog1`.
+Now you can use [JekyllEdit](#jekylledit) command!
 
 Of course, for advanced user, there are more options can be configured.
 
@@ -120,4 +120,5 @@ let g:jekyllUtil#defaultTitles = ['untitled', 'todo-list']
 ## License
 
 Distributed under the MIT license
+
 Copyright (C) 2016 Retorillo
