@@ -13,7 +13,6 @@ type ISO date-formatted file name, and so on)
 - [Commands](#commands)
    - [JekyllConf](#jekyllconf)
    - [JekyllEdit](#jekylledit)
-- [Where is JekyllRename?](#where_is_jekyllrename)
 - [Configuration](#configuration)
 - [License](#lisence)
 
